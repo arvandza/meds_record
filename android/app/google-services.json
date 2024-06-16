@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "599623395683",
+    "project_id": "medsrecord-91bbe",
+    "storage_bucket": "medsrecord-91bbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599623395683:android:a7cd0a39a97103d6a18b56",
+        "android_client_info": {
+          "package_name": "com.medsrecord.meds_record"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpHIB670luX6cJ_1hk4evz9Buz0XwjGtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

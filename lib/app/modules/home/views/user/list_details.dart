@@ -130,6 +130,7 @@ class _ListDetailsState extends State<ListDetails> {
                           controller.acceptRequest(requestModel.requestId!);
                           Navigator.of(context).pop();
                           controller.requestRecord.value = [];
+                          Get.snackbar('Success', 'Berhasil Mengizinkan Data');
                         },
                         child: const Text('Yakin'),
                       ),
@@ -146,6 +147,8 @@ class _ListDetailsState extends State<ListDetails> {
                       controller.deniedRequest(requestModel.requestId!);
                       Navigator.of(context).pop();
                       controller.requestRecord.value = [];
+                      Get.snackbar('Gagal',
+                          'Anda Menolak Permintaan ${requestModel.name}');
                     },
                     child: const Text('OK'),
                   ),

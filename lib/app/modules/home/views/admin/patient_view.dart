@@ -7,8 +7,6 @@ import 'package:meds_record/app/modules/home/controllers/medicalrecord_controlle
 import 'package:meds_record/app/modules/home/controllers/search_controller.dart';
 import 'package:meds_record/app/services/firestore_service.dart';
 
-import '../../../../data/listrecord.dart';
-
 class PatientView extends StatelessWidget {
   PatientView({super.key});
 

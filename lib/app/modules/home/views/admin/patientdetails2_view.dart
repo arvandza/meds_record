@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:meds_record/app/modules/home/views/widget/custom_card.dart';
 
-import '../../../../data/medicalrecord.dart';
 import '../../../../data/models/medicalrecord_model.dart';
 import '../../controllers/fileupload_controller.dart';
 

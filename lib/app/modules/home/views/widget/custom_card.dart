@@ -32,14 +32,6 @@ class CustomCard {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    const SizedBox(height: 4.0),
-                    const Text(
-                      'Male - 36 years',
-                      style: TextStyle(
-                        color: Colors.grey,
-                        fontSize: 14,
-                      ),
-                    ),
                   ],
                 ),
               ],

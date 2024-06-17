@@ -91,7 +91,7 @@ class UserController extends GetxController {
       }
       approvedRecord.value = records;
     } catch (e) {
-      print('Error fetching approved medical records: $e');
+      print(e);
     } finally {
       isLoading(false);
     }

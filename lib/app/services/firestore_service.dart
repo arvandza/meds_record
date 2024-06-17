@@ -25,21 +25,16 @@ class FirestoreService {
 
   Future<String?> getNIKByUID(String uid) async {
     try {
-      // Referensi ke dokumen dalam koleksi 'users' berdasarkan UID
       DocumentSnapshot doc =
           await FirebaseFirestore.instance.collection('users').doc(uid).get();
 
-      // Memeriksa apakah dokumen ada dan mengandung field 'nik'
       if (doc.exists) {
-        // Mengambil nilai field 'nik'
         String nik = doc.get('nik');
         return nik;
       } else {
-        print('Dokumen tidak ditemukan atau field nik tidak ada');
         return null;
       }
     } catch (e) {
-      print('Terjadi kesalahan: $e');
       return null;
     }
   }
